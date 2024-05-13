@@ -1,0 +1,8 @@
+transformers==3.40
+deepspeed
+datasets
+pytorch
+numpy
+nltk
+evaluate
+rouge-score

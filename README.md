@@ -1,3 +1,9 @@
+# Environment
+
+1. You can use `pip install -r requirements.txt` to create environment.
+
+2. If you want to use the flash-attention to accelerate the code, you should follow the instruction of [here](https://github.com/Dao-AILab/flash-attention?tab=readme-ov-file#installation-and-features) to install it.
+
 # Sample Data
 `./sample_data` is a sample of the wikipedia, which is embeded with bge-large-en. It contains three parts: train, valid and test. Each part has two attribues: text and embedding. The number of three parts are 1000, 100 and 100 respectively.
 
@@ -32,6 +38,10 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
         --run_name {your_output_name} \
         --deepspeed ./ds_config/ds_config_stage2.json
 ```
+
+## About Running Time
+
+Under the wikipedia_base and gpt2 setting, it will run about 4 hours.
 
 # Test
 
