@@ -8,7 +8,7 @@ This is the official implementation  of paper *Understanding Privacy Risks of Em
 
 ## Hardware
 
-Our code runs on a machine with 8$\times$A100 (40G) GPUs and Ubuntu 22.04. You can run our code on any machine that supports CUDA and has sufficient GPU memory.
+Our code runs on a machine with 8 $\times$ A100 (40G) GPUs and Ubuntu 22.04. You can run our code on any machine that supports CUDA and has sufficient GPU memory.
 
 ## Requirements
 
