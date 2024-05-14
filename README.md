@@ -63,7 +63,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
 
 ### About Running Time
 
-In an 8$\times$A100 (40G) hardware environment, with parameters set to `wikipedia_base` and `gpt2`, the runtime is approximately 4 hours.
+In an 8 $\times$ A100 (40G) hardware environment, with parameters set to `wikipedia_base` and `gpt2`, the runtime is approximately 4 hours.
 
 ## Text Reconstruction Attack Test
 
